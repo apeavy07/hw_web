@@ -1,0 +1,9 @@
+.section-2-max-temp-graph:hover,
+.section-2-humidity-graph:hover,
+.section-2-cloudiness-graph:hover,
+.section-2-wind-speed-graph:hover {
+  border: solid 3px #00cdcd;
+}
+.dropdown-toggle:hover::after {
+  color: #fff !important;
+}

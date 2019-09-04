@@ -1,0 +1,51 @@
+h2 {
+  color: #00cdcd;
+  font-family: "Alegreya", serif;
+  text-align: center;
+  font-size: 25pt;
+}
+html {
+  background-color: #333;
+}
+main {
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+p {
+  line-height: 2;
+  padding: 10px;
+}
+h2,
+p,
+section {
+  overflow: hidden;
+}
+.cent {
+}
+.line-decoration {
+  height: 5px;
+  background-color: #00cdcd;
+}
+.pad-20 {
+  padding: 20px;
+}
+.col-lg-4,
+.col-lg-7 {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.section-2-max-temp-graph,
+.section-2-humidity-graph,
+.section-2-cloudiness-graph,
+.section-2-wind-speed-graph {
+  height: 140px;
+  width: 140px;
+  padding: 5px;
+}
+#content-container {
+  margin-top: 75px;
+}
+h2 {
+  padding: 10px;
+}

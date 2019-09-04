@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+  .section-2-max-temp-graph,
+  .section-2-humidity-graph,
+  .section-2-cloudiness-graph,
+  .section-2-wind-speed-graph {
+    height: 130px;
+    width: 130px;
+  }
+  .cent {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) and (max-width: 1209px) {
+  .section-2-max-temp-graph,
+  .section-2-humidity-graph,
+  .section-2-cloudiness-graph,
+  .section-2-wind-speed-graph {
+    height: 100px;
+    width: 100px;
+  }
+  .cent {
+    text-align: center;
+  }
+}

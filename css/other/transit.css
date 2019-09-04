@@ -1,0 +1,4 @@
+* {
+  transition-property: *;
+  transition-duration: 1s;
+}

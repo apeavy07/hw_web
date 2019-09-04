@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      href="../resources/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link type="text/css" rel="stylesheet" href="../css/other/reset.css" />
+    <link type="text/css" rel="stylesheet" href="../css/other/fonts.css" />
+    <link type="text/css" rel="stylesheet" href="../css/other/transit.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/other/default_styles.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/views/v_cloudiness.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/components/navbar.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/components/footer.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/pseudo_classes/pc_navbar.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/pseudo_classes/pc_default.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/media_queries/mq_cloudiness.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/media_queries/mq_default.css"
+    />
+    <title>Cloudiness Results</title>
+  </head>
+
+  <body>
+    <div id="page-container">
+      <nav class="navbar navbar-light py-0 navbar-expand-sm">
+        <a
+          class="navbar-brand font-weight-bold"
+          href="../index.html"
+          title="Click here to go to the home page."
+          >Lattitude</a
+        >
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#nav_bar_menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav_bar_menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >Plots</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="max_temperature.html"
+                  >Max Temperature</a
+                >
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="comparison.html" class="nav-link">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a href="data.html" class="nav-link">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <div id="content-container" class="container">
+          <div class="row justify-content-around">
+            <div class="col-sm-12 col-lg-7 align-self-start mb-5">
+              <h2 class="font-weight-bold">Cloudiness</h2>
+              <hr />
+              <section class="pad-20">
+                <img
+                  class="section-1-cloudiness-graph"
+                  src="../resources/images/cloudiness_graph.png"
+                  alt="Cloudiness Graph"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer venenatis, ligula ac semper posuere, quam urna
+                  ullamcorper mi, nec convallis arcu nunc eu augue. Sed volutpat
+                  justo in mollis blandit. Class aptent taciti sociosqu ad
+                  litora torquent per conubia nostra, per inceptos himenaeos.
+                  Donec non accumsan nunc. Vivamus lacus mauris, posuere vitae
+                  odio et, malesuada tincidunt dolor. Proin tempor lorem
+                  vehicula nunc volutpat, vel varius est ornare. Aliquam metus
+                  est, convallis quis fringilla ut, aliquam nec justo.
+                  Vestibulum ac egestas ex. Nullam luctus venenatis massa ut
+                  malesuada. In aliquam nec mauris eu accumsan. Nunc tristique
+                  in quam ut efficitur. Aliquam eget nisi sed elit mollis
+                  molestie sit amet id mi. Nam aliquet dolor rhoncus dolor
+                  consectetur pellentesque. Sed in odio at neque vehicula
+                  dapibus in non diam.
+                </p>
+              </section>
+            </div>
+            <div class="col-sm-12 col-lg-4 align-self-start">
+              <h2 class="font-weight-bold">Visualizations</h2>
+              <hr />
+              <section class="pad-20">
+                <section class="cent">
+                  <a href="max_temperature.html">
+                    <img
+                      class="section-2-max-temp-graph"
+                      src="../resources/images/max_temperature_graph.png"
+                      alt="Max Temperature Graph"
+                      title="Click to view visualization."
+                    />
+                  </a>
+                  <a href="humidity.html">
+                    <img
+                      class="section-2-humidity-graph"
+                      src="../resources/images/humidity_graph.png"
+                      alt="Humidity Graph"
+                      title="Click to view visualization."
+                    />
+                  </a>
+                  <img
+                    class="section-2-cloudiness-graph"
+                    src="../resources/images/cloudiness_graph.png"
+                    alt="Cloudiness Graph"
+                  />
+                  <a href="wind_speed.html">
+                    <img
+                      class="section-2-wind-speed-graph"
+                      src="../resources/images/wind_speed_graph.png"
+                      alt="Wind Speed Graph"
+                      title="Click to view visualization."
+                    />
+                  </a>
+                </section>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="line-decoration"></div>
+      <footer>
+        <span class="copyright-msg">© Antonio Peavy 2019</span>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

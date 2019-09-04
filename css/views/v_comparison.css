@@ -1,0 +1,36 @@
+h2,
+h3 {
+  color: #00cdcd;
+  font-family: "Alegreya", serif;
+  padding: 10px;
+}
+h2 {
+  font-size: 25pt;
+}
+h3 {
+  font-size: 20pt;
+}
+.graph {
+}
+.col-lg-5 {
+  text-align: center !important;
+}
+main {
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+img {
+  height: 250px;
+  width: 350px;
+}
+#content-container {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 5px 10px 8px #888888;
+  overflow: hidden;
+  margin-top: 75px;
+}
+.line-decoration {
+  height: 5px;
+  background-color: #00cdcd;
+}

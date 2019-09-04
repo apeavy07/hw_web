@@ -1,0 +1,21 @@
+.dropdown-item:hover {
+  background-color: #00cdcd !important;
+  color: #fff !important;
+}
+.nav-link:hover {
+  background-color: #00cdcd !important;
+  color: #fff !important;
+}
+.navbar-toggler:hover {
+  background-color: #00cdcd !important;
+}
+.navbar-toggler-icon:hover {
+  color: #fff !important;
+}
+.dropdown-toggle::after {
+  color: #00cdcd !important;
+}
+.navbar-brand:hover {
+  background-color: #3030fc !important;
+  color: #fff !important;
+}

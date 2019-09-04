@@ -1,0 +1,28 @@
+nav {
+  box-shadow: 5px 10px 8px #888888;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: #fff;
+}
+.dropdown-item {
+  padding: 8px !important;
+}
+.dropdown-menu {
+  padding: 0 !important;
+  box-shadow: 5px 10px 8px #888888;
+}
+.nav-link {
+  padding: 13px !important;
+  font-weight: bold !important;
+}
+.navbar-brand {
+  background-color: #00cdcd;
+  color: #fff !important;
+  font-family: "Alegreya", serif;
+  font-size: 20pt !important;
+  margin-left: 3%;
+  padding: 20px;
+}
